@@ -1,0 +1,50 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  margin: 0;
+}
+img {
+  /* width: 75%; */
+  margin: auto;
+  object-fit: cover;
+}
+body {
+  background-color: #a78e7d;
+  background-image: url(./rella\ rella\ rella\ rella\ rella.jpg);
+  text-align: center;
+}
+
+.navbar {
+  width: 100vw;
+  height: 50px;
+  background-color: pink;
+}
+
+.container {
+  background-size: cover;
+  text-align: center;
+  max-width: 900px;
+  height: 85vh;
+  max-height: 100vw;
+  margin: auto;
+  background-image: url(./pizza.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 900px)  {
+  h1 {
+    font-size: 90px;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  }
+}
